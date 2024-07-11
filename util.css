@@ -1,0 +1,31 @@
+.locale{
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes colorChange{
+
+    0%{
+        color: red;
+    }
+    25%{
+        color: lime;
+    }
+    50%{
+        color: blueviolet;
+    }
+    100%{
+        color: aquamarine;
+    }
+}
+/*
+@keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+
+.logo{
+  
+
+  animation: mymove 5s infinite;
+}
+*/
